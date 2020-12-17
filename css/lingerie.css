@@ -1,0 +1,32 @@
+/* body,
+html {
+    overflow-y: ;
+} */
+
+.header-row {
+    background-image: url(../images/2x/lingerie-header.jpg);
+    background-size: 130%;
+    background-position: top;
+
+
+}
+
+@media screen and (max-width: 1300px) {
+    .header-row {
+
+        background-size: 147%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header-row {
+        background-size: 160%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-row {
+        background-size: 277%;
+        background-position: 60% 11%;
+    }
+}

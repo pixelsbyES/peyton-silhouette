@@ -1,0 +1,473 @@
+a,
+a:hover {
+    color: black;
+}
+
+
+
+
+/* ****************************************************HEADER SECTION***************************************************************************** */
+
+/* COLORING THE NAVBAR */
+.header {
+    background-color: rgba(218, 214, 204, 1);
+
+
+    transition: all 5s ease;
+
+
+
+}
+
+
+
+.filter-left {
+    transition: all 1s ease;
+    left: 0 !important;
+}
+
+.filter-button-left {
+    transition: all 1s ease;
+    left: 41.5% !important;
+}
+
+.logo {
+    width: 95.66px;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin: 28px 45.5px;
+}
+
+.cart {
+    top: 46px;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 25px;
+}
+
+/* STYLING THE DROPDOWN ON HOVER */
+
+.dropdown-menu {
+    margin: -2.65rem 0 0 40px;
+}
+
+
+.header-row {
+    background-image: url(../images/2x/full-header-background.jpg);
+    height: 40vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    text-align: center;
+
+}
+
+.header-row h1 {
+    margin: auto;
+}
+
+/* ****************************************************CONTENT SECTION***************************************************************************** */
+
+
+#content {
+    padding: 70px 30px;
+    background-color: rgba(218, 214, 204, 1);
+}
+
+
+.content-header {
+
+    font-style: italic;
+    text-align: left;
+}
+
+.description {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.results-counter {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.products {
+    padding: 0 40px;
+}
+
+.col-lg-10 {
+    padding-left: 80px;
+}
+
+/* STYLING THE FILTER ROW */
+
+.filters {
+    /* border: #735a51 2px solid; */
+    padding: 0px 15px 40px;
+    text-align: left;
+    background: rgba(115, 90, 81, 0.08);
+    /* opacity: 0.08; */
+}
+
+.filter-category {
+    font-size: 1.3rem;
+    color: white;
+    font-variant: small-caps;
+    background-color: #a6938f;
+    font-weight: 300;
+    padding: 3px 20px;
+    margin-top: 40px;
+}
+
+/* MAKING THE CHECKBOX AND FILTER ITEMS */
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-variant: small-caps;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 4.5px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border: rgba(166, 147, 143, 1) 1.5px solid;
+    border-radius: 4px;
+    /* background-color: rgba(166, 147, 143, 1); */
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: rgba(166, 147, 143, 1);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 4.1px;
+    top: 1px;
+    width: 5.5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+.filter-category-options {
+    margin-top: 15px;
+}
+
+/* how many items are in each filter option */
+
+.filter-count {
+    font-size: 14px;
+}
+
+/* styling the product images */
+
+.overlay {
+    width: 240px;
+}
+
+.product-image {
+    height: 374px;
+    width: 240px;
+
+}
+
+.product-container {
+    margin-top: 40px;
+    height: 374px;
+}
+
+
+.view-dress-button {
+    left: 0;
+    top: 89%;
+    height: 41.314px !important;
+    width: 100% !important;
+}
+
+.product-name {
+    margin: 10px 0 3px;
+    font-weight: 300;
+}
+
+.product-info {
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.pagination {
+    margin-top: 53px;
+}
+
+.page-link {
+    color: #735A51;
+    background-color: rgba(218, 214, 204, 0.42);
+    border: 1px solid rgb(115 90 81 / 20%);
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.page-link:hover {
+    color: #735A51;
+    background-color: rgb(115 90 81 / 31%);
+    border-color: rgb(115 90 81 / 31%);
+}
+
+#page2,
+#page3 {
+    display: none;
+}
+
+
+/* RESPONSIVE FILTER */
+
+#flip {
+    transition: all 1s ease;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    background-color: #a6938f;
+    position: fixed;
+    top: 50%;
+    padding-right: 8px;
+    width: 40px;
+    color: white;
+    height: 170px;
+    left: 0;
+    font-variant: small-caps;
+    font-weight: 300;
+    font-size: 1.2rem;
+    z-index: 2;
+    display: none;
+}
+
+.sidenav {
+
+    /* width: 184px; */
+    position: fixed;
+    z-index: 1;
+    top: 16%;
+    left: 0;
+    overflow-x: hidden;
+}
+
+#panel.sidenav {
+    background-color: #efeeea;
+    transition: all 1s ease;
+    left: -43%;
+    border: #a6938f 3px solid;
+    border-left: none;
+    height: fit-content;
+    height: 80%;
+
+}
+
+.filter-button-arrow {
+    width: 20px;
+}
+
+/* ****************************************************MEDIA QUERIES SECTION***************************************************************************** */
+
+
+@media screen and (max-width: 1300px) {
+    .cart {
+        top: 40px;
+    }
+
+    .nav-link {
+        margin: 28px 35.5px;
+    }
+
+    .carousel-indicators li {
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .nav-link {
+        font-size: 17px;
+        margin: 23px 20.5px;
+    }
+
+    .cart {
+        top: 37px;
+    }
+
+    .logo {
+        width: 80.66px;
+    }
+
+    .cart-svg {
+        width: 29px;
+        height: 29px;
+    }
+
+    .cart-item-count {
+        font-size: 14px;
+        width: 18px;
+        left: 17px;
+        top: -37px;
+        height: 20px;
+
+    }
+
+    .header-row {
+        height: 25vh;
+        background-position: 50% -250px;
+    }
+
+    .filter-count {
+        display: none;
+    }
+
+    .filter-category {
+        font-size: 1.1rem;
+        padding: 3px 10px;
+    }
+
+    .container {
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 25px;
+    }
+
+    .dropdown-menu {
+        margin: -1.65rem 0 0 32px;
+    }
+
+
+    .product-image,
+    .product-container {
+        height: 309px;
+    }
+
+    .overlay,
+    .product-image {
+        width: 200px;
+    }
+
+    .footer {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1021px) {
+
+    .cart-item-count {
+        font-size: 17px;
+        width: 21px;
+        left: 23px;
+        top: -43px;
+        height: 22px;
+
+    }
+
+    .cart-svg {
+        width: 39px;
+        height: 39px;
+    }
+
+    .logo {
+        width: 95.66px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .products .col-9 {
+        padding: 0 0 0 60px;
+    }
+
+    .products {
+        padding: 0 25px;
+    }
+
+    .filters {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .products .col-9 {
+        padding: 0;
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .header-row h1 {
+        margin: auto;
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .header-row h1 {
+        font-size: 45px;
+    }
+
+}

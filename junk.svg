@@ -1,0 +1,88 @@
+<!-- Loader 6 -->
+
+<svg version="1.1" id="L6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="-125 -125 350 350" enable-background="new 100 0 200 200" xml:space="preserve"  >
+
+
+
+ 
+<rect fill="none" stroke="#000" stroke-width="2" x="25" y="25" width="50" height="50">
+  <animateTransform
+     attributeName="transform"
+     dur="1s"
+     from="0 50 50"
+     to="180 50 50"
+     type="rotate"
+     id="strokeBox"
+     attributeType="XML"
+     begin="rectBox.end"/>
+<!--      <animateTransform
+     attributeName="height"
+     dur="1s"
+     from = "50"
+     to = "60"
+     id="strokeBox"
+      attributeType="XML"
+      begin="0s;rectBox.end"/> -->
+                       
+  </rect>
+
+
+
+
+
+
+<rect fill="none" stroke="#000" stroke-width="1" x="17" y="17"  width="66" height="66"> 
+     <animateTransform
+     attributeName="transform"
+     dur="3s"
+     from="0 50 50"
+     to="180 50 50"
+     type="rotate"
+     id="rectBox" 
+     attributeType="XML"
+     begin="0s;rectBox.end"/> 
+<!--     begin="2s;strokeBox.end"/> -->
+<!--   <animate
+     attributeName="height"
+     dur="1.3s"
+     attributeType="XML"
+     from="66" 
+     to="66"
+     
+     fill="freeze"
+     /> -->
+  </rect>
+  <rect fill="none" stroke="#000" stroke-width="2" x="9" y="9"  width="82" height="82">
+     <animateTransform
+     attributeName="transform"
+     dur="3s"
+     from="0 50 50"
+     to="180 50 50"
+     type="rotate"
+     id="rectBox2" 
+     attributeType="XML"               begin="0s;rectBox.end"/> 
+  </rect>
+  <rect fill="none" stroke="#000" stroke-width="2" x="9" y="9"  width="82" height="82">
+     <animateTransform
+     attributeName="transform"
+     dur="3s"
+     from="180 50 50"
+     to="0 50 50"
+     type="rotate"
+     id="rectBox3" 
+     attributeType="XML"               begin="0s;rectBox.end"/> 
+  </rect>
+  <rect fill="none" stroke="#000" stroke-width="1" x="17" y="17"  width="66" height="66">
+     <animateTransform
+     attributeName="transform"
+     dur="3s"
+     from="180 50 50"
+     to="0 50 50"
+     type="rotate"
+     id="rectBox3" 
+     attributeType="XML"
+     begin="0s;rectBox.end"/> 
+
+  </rect>
+</svg>

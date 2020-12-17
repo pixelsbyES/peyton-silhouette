@@ -1,0 +1,107 @@
+h3 {
+    font-variant: small-caps;
+    font-weight: 300;
+    font-size: 3.5rem;
+    color: #735a51;
+}
+
+.real-brides-story {
+    width: 55%;
+    margin: 35px auto 0px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.4;
+}
+
+.real-brides-story a {
+    color: black;
+    font-weight: 400;
+}
+
+.real-brides-story a:hover {
+    font-weight: 500;
+}
+
+.container-fluid {
+    width: 90%;
+}
+
+.gallery {
+    width: 80%;
+    margin: 90px auto;
+}
+
+.gallery-image {
+    width: 100%;
+}
+
+.small-image {
+    display: block;
+    margin: auto;
+}
+
+.under {
+    padding-top: 27px;
+}
+
+.tall {
+    height: 30%;
+}
+
+.under-tall {
+    padding-top: 60px;
+}
+
+
+.col-md-3 {
+    padding: 0;
+}
+
+.shop-brides-button {
+    margin-top: 40px;
+}
+
+.become-a-bride {
+    margin-top: 25px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .gallery {
+        width: 80%;
+        margin: 90px auto -35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .real-brides-story {
+        width: 75%;
+        font-size: 1.1rem;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 2.3rem;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
+    .become-a-bride {
+        margin-top: 15px;
+    }
+
+    .shop-brides-button {
+        height: 40.314px !important;
+        margin-top: 15px !important;
+    }
+
+    .gallery .col-lg-4 {
+        padding-bottom: 30px;
+    }
+}

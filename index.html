@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peyton Silhouette</title>
+    <link rel="icon" href="images/SVG/logo-thumbnail.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bs-stepper/dist/css/bs-stepper.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs-stepper/dist/js/bs-stepper.min.js"></script>
+</head>
+
+<body>
+
+    <section id="appointment-section">
+
+        <nav class="header navbar  navbar-expand-lg ">
+            <a class="navbar-brand" href="#"><img class="logo" src="images/SVG/logo-2.svg"
+                    alt="peyton-silhouette-logo"></a>
+
+            <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <div class="navbar-toggler-icon"><span></span><span></span><span></span></div>
+
+            </button>
+            <div class="cart">
+                <a href="cart.html" class="cart-icon"><img class="cart-svg" src="images/SVG/Cart.svg" alt="cart-icon">
+                </a>
+
+                <div class="cart-item-count">0</div>
+            </div>
+
+
+
+            <div class="justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="wedding-dresses.html" id="brides-dropdown" aria-haspopup="true"
+                            aria-expanded="false">WEDDING DRESSES</a>
+                        <ul class="dropdown-menu" aria-labelledby="brides-dropdown">
+                            <li><a class="dropdown-item" href="wedding-dresses.html">Silhouettes</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href=""> A-Line Wedding Dresses</a></li>
+                                    <li><a class="dropdown-item" href=""> Ball Gown Wedding Dresses</a></li>
+                                    <li><a class="dropdown-item" href=""> Fit & Flare Wedding Dresses</a></li>
+                                    <li><a class="dropdown-item" href=""> Mermaids Wedding Dresses</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Fabrics</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href=""> Lace </a></li>
+                                    <li><a class="dropdown-item" href=""> Satin </a></li>
+                                    <li><a class="dropdown-item" href=""> Chiffon </a></li>
+                                    <li><a class="dropdown-item" href=""> Organza </a></li>
+                                    <li><a class="dropdown-item" href=""> Tulle </a></li>
+                                    <li><a class="dropdown-item" href=""> Crepe </a></li>
+                                    <li><a class="dropdown-item" href=""> Net </a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="wedding-dresses.html">Necklines</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href=""> Strapless</a></li>
+                                    <li><a class="dropdown-item" href=""> Sweetheart</a></li>
+                                    <li><a class="dropdown-item" href=""> Bateau</a></li>
+                                    <li><a class="dropdown-item" href=""> Halter</a></li>
+                                    <li><a class="dropdown-item" href=""> High Neck</a></li>
+                                    <li><a class="dropdown-item" href=""> Illusion</a></li>
+                                    <li><a class="dropdown-item" href=""> Off The Shoulder</a></li>
+                                    <li><a class="dropdown-item" href=""> Scoop</a></li>
+                                    <li><a class="dropdown-item" href=""> V-necks</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="dropdown-item" href="wedding-dresses.html">Back Details</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href=""> Corset</a></li>
+                                    <li><a class="dropdown-item" href=""> Buttons</a></li>
+                                    <li><a class="dropdown-item" href=""> Illusion</a></li>
+                                    <li><a class="dropdown-item" href=""> Open Back</a></li>
+                                    <li><a class="dropdown-item" href=""> Keyhole</a></li>
+                                    <li><a class="dropdown-item" href=""> Racer Back</a></li>
+                                    <li><a class="dropdown-item" href=""> Off The Shoulder</a></li>
+                                    <li><a class="dropdown-item" href=""> Straps</a></li>
+                                    <li><a class="dropdown-item" href=""> V Back</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li><a class="dropdown-item" href="wedding-dresses.html">Sleeve Styles</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href=""> Strapless</a></li>
+                                    <li><a class="dropdown-item" href=""> 3/4 Sleeves</a></li>
+                                    <li><a class="dropdown-item" href=""> Illusion</a></li>
+                                    <li><a class="dropdown-item" href=""> Cap Sleeve</a></li>
+                                    <li><a class="dropdown-item" href=""> Detachable</a></li>
+                                    <li><a class="dropdown-item" href=""> Long Sleeves</a></li>
+                                    <li><a class="dropdown-item" href=""> Off The Shoulder</a></li>
+                                    <li><a class="dropdown-item" href=""> Sleeveless</a></li>
+                                    <li><a class="dropdown-item" href=""> Spaghetti Straps</a></li>
+                                    <li><a class="dropdown-item" href=""> Straps</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Bridal Accessories</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href=""> Wedding Veils</a></li>
+                                    <li><a class="dropdown-item" href=""> Belts & Sleeves</a></li>
+                                    <li><a class="dropdown-item" href=""> Bridal Headpieces</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="bridesmaids.html">BRIDESMAIDS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="lingerie.html">ROBES & LINGERIE</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer-section">CONTACT US</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </nav>
+        <div class="appointment">
+            <button onclick="topFunction()" id="to-top-Btn" title="Go to top"><img class="to-top-icon"
+                    src="images/SVG/up-arrow.svg" alt=""></button>
+            <h2>Make an Appointment</h2>
+            <h4>Let's help you find the right gown</h4>
+
+            <a role="button" class="btn  book-now-button" data-toggle="modal" data-target="#appointment-modal">Book
+                Now</a>
+        </div>
+        <div class="modal fade" id="appointment-modal" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Book An Appointment</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="needs-validation " novalidate>
+
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="firstname">First Name</label>
+                                        <input type="text" class="form-control" id="firstname" required>
+                                        <div class="invalid-feedback">
+                                            Please input a first name.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="lastname">Last Name</label>
+                                        <input type="text" class="form-control" id="lastname" required>
+                                        <div class="invalid-feedback">
+                                            Please input a last name
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="appointment-email">Email address</label>
+                                        <input type="email" class="form-control" id="appointment-email"
+                                            aria-describedby="emailHelp" required>
+                                        <div class="invalid-feedback">
+                                            Please select a valid email.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="phone-number">Phone Number</label>
+                                        <input type="tel" class="form-control" id="phone-number" required>
+                                        <div class="invalid-feedback">
+                                            Please input a valid Number
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="meeting-time"> Desired Meeting Time </label>
+                                        <input type="time" class="form-control" id="meeting-time" required>
+                                        <div class="invalid-feedback">
+                                            Please input a valid meeting time.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="meeting-date"> Desired Meeting Date</label>
+                                        <input type="date" class="form-control" id="meeting-date" required>
+                                        <div class="invalid-feedback">
+                                            Please input a valid meeting date.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col">
+
+                                    <div class="form-group ">
+                                        <label for="dress-styles">Dress Category</label>
+
+                                        <div class="custom-select">
+                                            <select class="form-control" id="dress-styles" required>
+                                                <option>Wedding Dress</option>
+                                                <option>Reception Dress</option>
+                                                <option>Court Wedding Dress</option>
+                                                <option>Mother-of-Bride Dress</option>
+                                                <option>Maid of Honour Dress</option>
+                                                <option>Bridesmaids Dress</option>
+                                                <option>Little Bride Dress</option>
+                                                <option>Wedding Guest Dress</option>
+                                            </select>
+                                        </div>
+
+
+                                        <div class="invalid-feedback">
+                                            Please select a dress type.
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="dress-color">Desired Dress Color</label>
+                                        <input type="text" class="form-control" id="dress-color" required>
+                                        <div class="invalid-feedback">
+                                            Please input a dress color.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col align-self-center">
+                                    <div class="form-group">
+                                        <label for="meeting-date">Wedding Date</label>
+                                        <input type="date" class="form-control" id="wedding-date" required>
+                                        <div class="invalid-feedback">
+                                            Please input a valid wedding date.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn appointment-btn">Make Appointment</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="fys-section">
+        <div class="images">
+            <img class="left-image-of-fys" src="images/2x/left-image-of-fys.jpg"
+                alt="woman-standing-by-the-waterside-in-a-white-dress">
+            <img class="center-image-of-fys" src="images/2x/center-image-of-fys.jpg"
+                alt="three-women-laying-on-a-bed-in-white-lace-dresses">
+            <img class="right-image-of-fys" src="images/2x/right-image-of-fys.jpg"
+                alt="woman-in-a-white-dress-siiting-in-a-car">
+        </div>
+
+        <div class="find-your-style">
+            <h1 class="fys-heading">Find Your <br> Style</h1>
+            <h3 class="fys-body">Fresh looks for every Bride</h3>
+
+            <a role="button" href="wedding-dresses.html" class="btn  browse-gowns-button">Browse Gowns</a>
+        </div>
+
+        <div class="phone-version">
+
+            <h1 class="fys-heading">Find Your Style</h1>
+            <h3 class="fys-body">Fresh looks for every Bride</h3>
+
+            <img class="center-image-of-fys" src="images/2x/center-image-of-fys.jpg"
+                alt="three-women-laying-on-a-bed-in-white-lace-dresses">
+            <a role="button" href="wedding-dresses.html" class="btn  browse-gowns-button">Browse Gowns</a>
+
+        </div>
+
+
+    </section>
+
+    <section id="best-sellers-section">
+        <h1>Best Sellers</h1>
+        <div class=" best-sellers-row row">
+            <div class="col-md-6 col-lg-3">
+                <div class="product-container">
+                    <img class="product-image" src="images/2x/best-seller-image-1.jpg" alt="lady-in-a-pink-dress">
+                    <div class="overlay">
+                        <div class="text">Vizcaya</div>
+                        <a type="button" class="btn  view-dress-button" data-toggle="modal"
+                            data-target="#best-seller-1-modal">View Dress</a>
+
+                    </div>
+                </div>
+                <p class="product-info">
+                    Fresh, feminine florals add the perfect touch of whimsy to our Jullietta designer wedding dress.…
+                </p>
+
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="best-seller-1-modal" data-backdrop="static" data-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered">
+                        <div class="modal-content ">
+                            <div class="row">
+                                <div class="col-5">
+
+                                    <div id="best-seller-1-carousel" class="carousel slide" data-ride="carousel"
+                                        data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#best-seller-1-carousel" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#best-seller-1-carousel" data-slide-to="1"></li>
+                                            <li data-target="#best-seller-1-carousel" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active ">
+                                                <img src="images/2x/best-seller-image-1.jpg" class=" d-block w-100"
+                                                    alt="lady-in-a-pink-dress">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/2x/front.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/2x/left.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#best-seller-1-carousel" role="button"
+                                            data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#best-seller-1-carousel" role="button"
+                                            data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-7">
+                                    <div class="modal-header">
+
+                                        <h5 class="modal-title" id="staticBackdropLabel">Jullietta Designer Dress</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        <hr class="first-div">
+                                        <p class="dress-info"> A true timeless beauty, our Ariel wedding gown features a
+                                            delicate, sheer
+                                            off
+                                            the shoulder neckline accented in pearl and crystal beaded, embroidered
+                                            appliqués that extend on to the Frosted Chantilly Lace fit and flare
+                                            silhouette.
+                                            An intricate illusion back trimmed in covered buttons gives way to a
+                                            gorgeous
+                                            scalloped hemline and sheer train. Available in three lengths: 55″, 58″,
+                                            61″.
+                                            Styled with Headpiece HP4069. Shown in Ivory/Sand/Honey. ...</p>
+
+                                        <hr class="second-div">
+
+                                        <div class="row">
+                                            <div class="col">
+                                                <h6>Available Colors</h6>
+                                                <p class="colors">Red, Yellow, Black</p>
+                                            </div>
+                                            <div class="col">
+                                                <h6>Price</h6>
+                                                <p class="colors">₦280,000</p>
+                                            </div>
+                                            <div class="col">
+                                                <h6>Category</h6>
+                                                <p class="colors">A-line</p>
+                                            </div>
+
+                                            <a role="button" class="btn  view-more-button">View More</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+
+                <!-- <figure class="imghvr-reveal-up">
+                    <img class="product-image" src="images/2x/best-seller-image-2.jpg"
+                        alt="lady-in-a-white-dress-holding-flowers">
+                    <figcaption>
+                        <div>Vizcaya</div>
+                        <button type="button" class="btn  view-dress-button">View Dress</button>
+                    </figcaption>
+                </figure> -->
+
+                <div class="product-container">
+                    <img class="product-image" src="images/2x/best-seller-image-2.jpg"
+                        alt="lady-in-a-white-dress-holding-flowers">
+                    <div class="overlay">
+                        <div class="text">Vizcaya</div>
+                        <a role="button" class="btn  view-dress-button">View Dress</a>
+
+                    </div>
+                </div>
+
+                <p class="product-info">
+                    Perfect for a Destination Wedding, this Long Sleeve English Net Wedding Gown Features a Crystal…
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="product-container">
+                    <img class="product-image" src="images/2x/best-seller-image-3.jpg" alt="lady-in-a-white-dress">
+                    <div class="overlay">
+                        <div class="text">Vizcaya</div>
+                        <a role="button" class="btn  view-dress-button">View Dress</a>
+
+                    </div>
+                </div>
+
+
+                <p class="product-info">
+                    The Ava designer wedding dress features a sweetheart neckline with an a-line silhouette.…
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="product-container">
+                    <img class="product-image" src="images/2x/33195.jpg" alt="lady-in-a-white-dress">
+                    <div class="overlay">
+                        <div class="text">Vizcaya</div>
+                        <a type="button" class="btn  view-dress-button">View Dress</a>
+
+                    </div>
+                </div>
+
+
+                <p class="product-info">
+                    The Ava designer wedding dress features a sweetheart neckline with an a-line silhouette.…
+                </p>
+            </div>
+
+
+        </div>
+        <a href="wedding-dresses.html" type="button" class="btn  new-arrivals-button">Shop Best Sellers</a>
+
+    </section>
+
+    <section id="dress-party-section">
+        <h1>Dress the Whole Party</h1>
+
+        <div class="row dp-images">
+
+
+            <div class="col-lg-3 col-6 down">
+
+                <div class="product-container">
+                    <img class="dp-image-down" src="images/2x/Bridesmaids-image.jpg"
+                        alt="lady-in-a-green-dress-smiling">
+                    <div class="overlay">
+
+                        <a href="bridesmaids.html" type="button" class="btn  overlay-button shop-maids-button">Shop
+                            Bridesmaids</a>
+
+                    </div>
+                </div>
+
+                <p>Bridesmaids</p>
+            </div>
+
+            <div class="col-lg-3 col-6 up">
+
+                <div class="product-container">
+                    <img class="dp-image-up" src="images/2x/accessories-image.jpg"
+                        alt="lady-in-a-white-dress-putting-on-earrings">
+                    <div class="overlay">
+
+                        <a role="button" class="btn  overlay-button shop-access-button">Shop Accessories</a>
+
+                    </div>
+                </div>
+
+
+                <p>Accessories</p>
+            </div>
+
+            <div class="col-lg-3 col-6 mothers down">
+
+                <div class="product-container">
+                    <img class="dp-image-down" src="images/2x/mothers-image.jpg" alt="lady-in-a-blue-dress">
+                    <div class="overlay">
+
+                        <a href="guests.html" role="button" class="btn overlay-button shop-mothers-button">Shop
+                            Mothers</a>
+
+                    </div>
+                </div>
+
+                <p>Mothers</p>
+            </div>
+
+            <div class="col-lg-3 col-6 up">
+                <div class="product-container">
+                    <img class="dp-image-up" src="images/2x/flower-girls-image.jpg" alt="girl-in-a-white-dress">
+                    <div class="overlay">
+                        <h3 class="coming-soon">Coming Soon</h3>
+                        <!-- <a role="button" class="btn overlay-button shop-flowers-button">Shop Flower Girls</a> -->
+
+                    </div>
+                </div>
+
+
+
+                <p>Flower Girls</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="ps-brides-and-subscribe-section">
+        <div class="row ps-brides-and-subscribe">
+            <div class=" col-md-6 col-12 real-brides">
+                <!-- <img class="real-brides-image" src="images/2x/real-brides-image.jpg" alt="newly-wedded-couple-smiling"> -->
+                <h1>Peyton Silhouette Brides</h1>
+                <a href="real-brides.html" role="button" class="btn  real-brides-button">See Real Brides</a>
+
+            </div>
+
+            <div class="col-md-6 col-12 newsletter">
+                <!-- <img class="newsletter-image" src="images/2x/newsletter-image.jpg" alt="newly-wedded-couple-smiling"> -->
+                <h1>Subscribe to Our Newsletter</h1>
+                <p>Never miss out news and exclusive deals</p>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email Address">
+                <button type="submit" class="btn  sign-up-button">Sign Up</button>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="footer-section">
+        <div class="row footer">
+            <div class="col-lg-4 col-md-6 col-12">
+                <h5>Contact Us</h5>
+                <ul>
+                    <li> <a href="tel:+2347061683705"><img class="contact-icon" src="images/SVG/phone-icon.svg"
+                                alt="phone-icon"> + (234)
+                            7061683705</a>
+
+                    </li>
+                    <li> <a href="mailto:peytonsilhouette@gmail.com"><img class="contact-icon"
+                                src="images/SVG/email-icon.svg" alt="email-icon">peytonsilhouette@gmail.com</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/peytonsilhouette/"> <img class="contact-icon"
+                                src="images/SVG/instagram-icon.svg" alt="instagram-icon">@peytonsilhouette</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <h5>Learn More</h5>
+                <ul>
+                    <li> <a href="FAQ.html">FAQ</a></li>
+                    <li> <a href="about-us.html">About Us</a></li>
+                    <li><a href="real-brides.html">See real Peyton Brides</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 browse">
+                <h5>Browse & Shop</h5>
+                <ul>
+                    <li> <a href="wedding-dresses.html">Brides</a></li>
+                    <li> <a href="bridesmaids.html">Bridesmaids</a></li>
+                    <li><a href="guests.html">Guests</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <p>© 2020 peyton silhouette. All Rights Reserved.</p>
+    </section>
+    <script src="js/index.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/load-screen.js"></script>
+
+</body>
+<div class="se-pre-con">
+    <img src="images/SVG/ps.svg" alt="ps-logo">
+    <!-- <h4 style="
+font-variant: small-caps;
+position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+">Peyton Silhouette</h4> -->
+
+</div>
+
+</html>

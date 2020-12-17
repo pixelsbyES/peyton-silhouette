@@ -1,0 +1,50 @@
+.card {
+    margin: 0 auto 100px;
+    border: none;
+    background: rgba(115, 90, 81, 0.08);
+    width: 90%;
+}
+
+.card-title {
+    font-size: 2.55rem;
+    margin-bottom: 3rem;
+}
+
+.card-body {
+    padding: 40px 30px;
+}
+
+.card-text {
+    font-variant: small-caps;
+    text-align: left;
+    margin-bottom: 65px;
+
+}
+
+.question {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.answer {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.book-appointment {
+    color: black;
+    font-weight: 500;
+}
+
+.book-appointment:hover {
+    color: black;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+        line-height: 1.55;
+    }
+}
